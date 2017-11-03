@@ -1,6 +1,24 @@
 {
   "name": "setting-env",
   "version": "0.0.1",
+  "author": "lvyuanjiao <lvyuanjiao@yeah.net>",
+  "contributors": [{
+    "name": "Lv yuanjiao",
+    "email": "lvyuanjiao@yeah.net"
+  }],
+  "homepage": "https://github.com/lvyuanjiao/setting-env",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lvyuanjiao/setting-env.git"
+  },
+	"bugs": {
+    "url": "https://github.com/lvyuanjiao/setting-env/issues"
+  },
+  "keywords": [
+    "setting",
+    "env"
+  ],
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel ./src --out-dir ./lib",
     "test": "mocha --compilers js:babel-core/register"
@@ -21,5 +39,6 @@
     "eslint-config-airbnb": "^15.1.0",
     "mocha": "~4.0.1",
     "should": "~13.1.3"
-  }
+  },
+  "license": "MIT"
 }
