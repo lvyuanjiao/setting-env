@@ -1,0 +1,25 @@
+{
+  "name": "setting-env",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib",
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "dependencies": {
+    "merge": "~1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "~6.26.0",
+    "babel-core": "~6.26.0",
+    "babel-register": "~6.26.0",
+    "babel-preset-env": "~1.6.0",
+    "babel-plugin-transform-object-rest-spread": "~6.26.0",
+    "eslint": "~4.5.0",
+    "eslint-plugin-import": "~2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "mocha": "~4.0.1",
+    "should": "~13.1.3"
+  }
+}
